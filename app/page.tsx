@@ -1,5 +1,6 @@
 'use client'
 
+import BlogDisplay from "@/components/Blog/BlogDisplay";
 import Counter from "@/components/counter";
 import DomainSearch from "@/components/domainSearch";
 import Hero from "@/components/hero";
@@ -23,6 +24,7 @@ export default function Home() {
       <Pricing />
       <Reviews />
       <HowItWorks />
+      <BlogDisplay />
 
     </main>
   )

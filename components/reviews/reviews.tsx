@@ -24,7 +24,7 @@ import 'swiper/css/effect-coverflow';
 
 const Reviews = () => {
   return (
-    <section className='container py-20'>
+    <section className=' py-20'>
 
       <div className='text-center'>
         <h1 className='text-3xl sm:text-4xl font-extrabold'>Reviews</h1>
@@ -47,7 +47,6 @@ const Reviews = () => {
           }}
           navigation
           pagination
-
           className='.swiper_container'
 
         >
