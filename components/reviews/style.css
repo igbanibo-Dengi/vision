@@ -1,0 +1,16 @@
+.swiper_container {
+  height: 500px;
+  position: relative;
+}
+
+.swiper-slide {
+  max-width: 400px !important;
+  height: auto;
+  position: relative;
+  background-color: white;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
