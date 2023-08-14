@@ -8,13 +8,16 @@ interface BlogPost {
   date: string;
 }
 
+
+
+
 const dummyBlogData: BlogPost[] = [
   {
     id: 1,
-    header: "Getting Started with Next.js",
-    subHeader: "A beginner's guide to setting up your first Next.js project",
+    header: " Unleashing the Power of Cloud Hosting",
+    subHeader: "A Digital Transformation Journey with PixelHost",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+      "",
     author: "John Doe",
     imagePath: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
@@ -46,7 +49,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Emily Davis",
-    imagePath: "/images/introduction-to-graphql.jpg",
+    imagePath: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -56,7 +59,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "David Brown",
-    imagePath: "/images/creating-dynamic-uis-with-react.jpg",
+    imagePath: "https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -66,7 +69,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Olivia White",
-    imagePath: "/images/optimizing-website-performance.jpg",
+    imagePath: "https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -76,7 +79,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "William Green",
-    imagePath: "/images/securing-your-web-applications.jpg",
+    imagePath: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -86,7 +89,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Sophia Rodriguez",
-    imagePath: "/images/the-art-of-front-end-design.jpg",
+    imagePath: "https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -96,7 +99,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Daniel Wilson",
-    imagePath: "/images/nodejs-and-express-for-back-end-development.jpg",
+    imagePath: "https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -106,7 +109,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Isabella Lee",
-    imagePath: "/images/exploring-the-world-of-docker.jpg",
+    imagePath: "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -116,7 +119,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Nathan Turner",
-    imagePath: "/images/ui-ux-design-principles-for-web-development.jpg",
+    imagePath: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -126,7 +129,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Ella Martinez",
-    imagePath: "/images/building-modern-apis-with-graphql.jpg",
+    imagePath: "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -136,7 +139,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Liam Carter",
-    imagePath: "/images/responsive-design-for-mobile-first-experiences.jpg",
+    imagePath: "https://images.pexels.com/photos/17586836/pexels-photo-17586836/free-photo-of-smartphone-blank-screen-mockup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -146,7 +149,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Ava Walker",
-    imagePath: "/images/navigating-web-accessibility-guidelines.jpg",
+    imagePath: "https://images.pexels.com/photos/4027658/pexels-photo-4027658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -156,7 +159,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Lucas Anderson",
-    imagePath: "/images/database-design-and-optimization.jpg",
+    imagePath: "https://images.pexels.com/photos/17489155/pexels-photo-17489155/free-photo-of-computer-server-in-data-center-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -166,7 +169,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Emma Reed",
-    imagePath: "/images/effective-testing-strategies-for-web-applications.jpg",
+    imagePath: "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -176,7 +179,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Liam Turner",
-    imagePath: "/images/advanced-css-techniques-and-animation.jpg",
+    imagePath: "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -186,7 +189,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Mia Stewart",
-    imagePath: "/images/serverless-architecture-and-cloud-functions.jpg",
+    imagePath: "https://images.pexels.com/photos/5475763/pexels-photo-5475763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -196,7 +199,7 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Oliver Lewis",
-    imagePath: "/images/javascript-frameworks-comparison.jpg",
+    imagePath: "https://images.pexels.com/photos/11035366/pexels-photo-11035366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "03-May-2023"
   },
   {
@@ -206,7 +209,17 @@ const dummyBlogData: BlogPost[] = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
     author: "Sophia Turner",
-    imagePath: "/images/devops-and-continuous-integration.jpg",
+    imagePath: "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    date: "03-May-2023"
+  },
+    {
+    id: 21,
+    header: "Web hosting in 2023",
+    subHeader: "Implementing test-driven development and automated testing",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+    author: "Sophia Turner",
+    imagePath: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600",
     date: "03-May-2023"
   },
 ];
