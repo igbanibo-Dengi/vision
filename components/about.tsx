@@ -23,7 +23,7 @@ const About = () => {
             Our Founding
           </h1>
           <p className='text-gray-500 '>
-            In the bustling year of 2007, PixelHost emerged as the brainchild of Alex Turner and Lily Chen. Fueled by a shared passion for design and development, they embarked on a journey to redefine the digital landscape. PixelHost's inception was marked by the establishment of a visionary blog and an online hub, serving as a platform for some of the industry's brightest minds to exchange ideas and insights.
+            In the bustling year of 2007, PixelHost emerged as the brainchild of Alex Turner and Lily Chen. Fueled by a shared passion for design and development, they embarked on a journey to redefine the digital landscape. PixelHost&apos;s inception was marked by the establishment of a visionary blog and an online hub, serving as a platform for some of the industry's brightest minds to exchange ideas and insights.
           </p>
         </div>
         <div className='basis-1/2 mt-8 md:mt-0 p-10'>
@@ -40,7 +40,7 @@ const About = () => {
             Early Growth and Funding
           </h1>
           <p className='text-gray-500 '>
-            As the echoes of innovation reverberated, PixelHost experienced a meteoric rise. Its early growth was fueled by a fervent dedication to pushing the boundaries of design and development. The company's unwavering commitment attracted the attention of investors who recognized its potential to disrupt the industry. With strategic funding, PixelHost was poised to expand its horizons and embrace new opportunities.
+            As the echoes of innovation reverberated, PixelHost experienced a meteoric rise. Its early growth was fueled by a fervent dedication to pushing the boundaries of design and development. The company&apos;s unwavering commitment attracted the attention of investors who recognized its potential to disrupt the industry. With strategic funding, PixelHost was poised to expand its horizons and embrace new opportunities.
           </p>
         </div>
         <div className='basis-1/2 mt-8 md:mt-0 p-10'>
@@ -88,7 +88,7 @@ const About = () => {
                   What we do
                 </h1>
                 <p className='text-gray-500 px-6'>
-                  At our core, we specialize in delivering top-notch web hosting solutions that empower businesses to thrive in the digital landscape. With a keen focus on performance, reliability, and scalability, we provide a comprehensive range of hosting services tailored to meet your unique needs. From shared hosting for startups to enterprise-level solutions, we're dedicated to ensuring your online presence is secure, fast, and always available.
+                  At our core, we specialize in delivering top-notch web hosting solutions that empower businesses to thrive in the digital landscape. With a keen focus on performance, reliability, and scalability, we provide a comprehensive range of hosting services tailored to meet your unique needs. From shared hosting for startups to enterprise-level solutions, we&apos;re dedicated to ensuring your online presence is secure, fast, and always available.
                 </p>
                 <div className='flex justify-center items-center md:block mt-10 md:px-6'>
                   <Button size={'lg'}>Get in touch</Button>
