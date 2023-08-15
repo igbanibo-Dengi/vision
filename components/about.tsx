@@ -14,7 +14,7 @@ const About = () => {
   return (
     <section className='container'>
 
-      <header className='mx-auto text-center mt-20'>
+      <header className='mx-auto text-center pt-20'>
         <h1 className='text-4xl font-extrabold mb-10'>Our Story</h1>
         <hr className="border-t-3 border-gray-500" />
       </header>

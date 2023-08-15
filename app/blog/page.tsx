@@ -5,7 +5,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
 
 const page = () => {
   return (
-    <section className='container my-20'>
+    <section className='container pt-10 mb-20'>
       < header className='text-center' >
         <h1 className='mb-4 text-xl sm:text-3xl md:text-4xl font-extrabold'>Blog</h1>
         <p className='text-base text-gray-500'>Check out our latest blog posts</p>

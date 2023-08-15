@@ -6,7 +6,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <section className='mt-20'>
+    <section>
       <DomainSearch />
       <DomainTable />
       <MainServices />

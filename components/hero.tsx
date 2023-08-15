@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 
 const Hero = () => {
   return (
-    <div className='container flex flex-col md:flex-row'>
+    <div className='container flex flex-col md:flex-row h-screen'>
       <div className='flex flex-col align-middle justify-center gap-3 basis-1/2'>
         <h1 className='text-[36px] sm:text-[48px] md:text-[56px] leading-snug font-extrabold'>
           Design,
@@ -22,7 +22,7 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className='basis-1/2 mt-8 md:mt-0'>
+      <div className='basis-1/2 md:mt-0 flex items-center'>
         <Image
           src={HeroImg}
           alt='hero'

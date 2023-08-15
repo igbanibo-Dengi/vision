@@ -11,7 +11,7 @@ import { Button } from './ui/button'
 
 const HowItWorks = () => {
   return (
-    <section className='container mt-0 md:mt-40'>
+    <section className='container mt-0 '>
       <Tabs defaultValue="account" className="mb-10">
         <TabsList className='flex gap-5 md:gap-10 mb-10'>
           <TabsTrigger value="account">hosting</TabsTrigger>
