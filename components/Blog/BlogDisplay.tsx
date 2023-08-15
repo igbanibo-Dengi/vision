@@ -3,19 +3,30 @@ import React from 'react'
 import dummyBlogData from "./BlogData"
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const BlogDisplay = () => {
   const firstThreePosts = dummyBlogData.slice(0, 3)
   return (
 
     <section className='container mt-40'>
-      < header className='text-center' >
+      < motion.div
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
+        viewport={{ once: true }}
+        className='text-center' >
         <h1 className='mb-4 text-xl sm:text-3xl md:text-4xl font-extrabold'>Blog</h1>
         <p className='text-base text-gray-500'>Check out our latest blog posts</p>
-      </header >
+      </motion.div >
 
       <div className='py-16'>
-        <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
+          viewport={{ once: true }}
+          className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
           {firstThreePosts.map((post) => (
             <Link href={`/blog/${post.id}`} key={post.id} className='border bg-white p-4 rounded shadow-md hover:scale-110 transition-all duration-300'>
               <Image
@@ -33,7 +44,7 @@ const BlogDisplay = () => {
               <p className='text-gray-500'>{post.date}</p>
             </Link>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   )

@@ -22,7 +22,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -39,7 +39,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -56,7 +56,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -73,7 +73,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -90,7 +90,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -107,7 +107,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">

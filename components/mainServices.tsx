@@ -16,22 +16,20 @@ const MainServices = () => {
           alt='hero'
         />
         <motion.div
-          initial={{ y: 150, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-        >
+          transition={{ duration: 0.5, delay: 0.4, ease: 'linear' }}
+          viewport={{ once: true }}        >
           <h1 className='text-3xl sm:text-4xl font-extrabold'>Our Core Services</h1>
           <p className='text-gray-500 text-base'>Unlock a world of possibilities with our main service offerings. From lightning-fast web hosting and dynamic web design to robust e-commerce solutions, we&apos;ve got your digital needs covered. Explore our main services and take your online presence to new heights.</p>
         </motion.div>
       </div>
       <div className='grid  md:grid-cols-2 basis-1/2 gap-5 text-center'>
         <motion.div
-          initial={{ y: 150, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
-
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
             <h2 className="text-xl font-extrabold mb-2">Web Hosting</h2>
@@ -45,11 +43,10 @@ const MainServices = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 150, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
-
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
             <h2 className="text-xl font-extrabold mb-2">Web Design</h2>
@@ -62,11 +59,10 @@ const MainServices = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ y: 150, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
-
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
             <h2 className="text-xl font-extrabold mb-2">E-Commerce</h2>
@@ -80,11 +76,10 @@ const MainServices = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 150, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: 'linear' }}
           viewport={{ once: true }}
-
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
             <h2 className="text-xl font-extrabold mb-2">Digital Marketing</h2>
