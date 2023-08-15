@@ -2,6 +2,7 @@ import React from 'react'
 import dummyBlogData from "../../components/Blog/BlogData"
 import Link from 'next/link'
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -15,10 +16,12 @@ const page = () => {
         <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
           {dummyBlogData.map((post) => (
             <Link href={`/blog/${post.id}`} key={post.id} className='border bg-white p-4 rounded shadow-sm hover:scale-110 transition-all duration-300'>
-              <img
+              <Image
                 src={post.imagePath}
                 alt={post.header}
                 className='w-full h-40 object-cover mb-4 rounded'
+                height={500}
+                width={500}
               />
               <h2 className='text-lg font-semibold text-gray-800 mb-2'>
                 {post.header}

@@ -23,7 +23,7 @@ const About = () => {
             Our Founding
           </h1>
           <p className='text-gray-500 '>
-            In the bustling year of 2007, PixelHost emerged as the brainchild of Alex Turner and Lily Chen. Fueled by a shared passion for design and development, they embarked on a journey to redefine the digital landscape. PixelHost&apos;s inception was marked by the establishment of a visionary blog and an online hub, serving as a platform for some of the industry's brightest minds to exchange ideas and insights.
+            In the bustling year of 2007, PixelHost emerged as the brainchild of Alex Turner and Lily Chen. Fueled by a shared passion for design and development, they embarked on a journey to redefine the digital landscape. PixelHost&apos;s inception was marked by the establishment of a visionary blog and an online hub, serving as a platform for some of the industry&apos;s brightest minds to exchange ideas and insights.
           </p>
         </div>
         <div className='basis-1/2 mt-8 md:mt-0 p-10'>

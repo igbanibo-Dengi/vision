@@ -48,7 +48,7 @@ const page = () => {
               Cloud hosting has emerged as a game-changer, offering unparalleled scalability, reliability, and flexibility. Traditional hosting solutions often face limitations in handling sudden spikes in traffic or accommodating the evolving needs of a growing website. Enter cloud hosting, a dynamic infrastructure that harnesses the power of multiple interconnected servers to ensure seamless performance and resource allocation.
 
               <h1 className='text-xl sm:text-3xl font-bold mb-5 mt-20'> PixelHost&apos;s Cloud Hosting Expertise</h1>
-              At PixelHost, we've harnessed the potential of cloud hosting to empower businesses of all sizes. Our state-of-the-art Cloud Hosting 360° platform offers a comprehensive suite of features designed to optimize every aspect of your hosting experience. From lightning-fast loading speeds to automated scalability, PixelHost&apos;s cloud hosting ensures your website remains effortlessly responsive even during traffic surges.
+              At PixelHost, we&apos;ve harnessed the potential of cloud hosting to empower businesses of all sizes. Our state-of-the-art Cloud Hosting 360° platform offers a comprehensive suite of features designed to optimize every aspect of your hosting experience. From lightning-fast loading speeds to automated scalability, PixelHost&apos;s cloud hosting ensures your website remains effortlessly responsive even during traffic surges.
 
               <h1 className='text-xl sm:text-3xl font-bold mb-5 mt-20'>Effortless Scalability</h1>
               PixelHost&apos;s cloud hosting architecture allows your website to scale effortlessly as your business grows. Say goodbye to the constraints of traditional hosting,  with cloud hosting, resources are allocated on-demand, ensuring your website always performs at its best, regardless of the traffic influx.
@@ -75,10 +75,12 @@ const page = () => {
               <h3 className='text-lg font-medium'>Similar posts</h3>
               {firstfivePosts.map((post) => (
                 <Link href={`/blog/${post.id}`} key={post.id} className='border bg-white p-4 rounded shadow-sm hover:scale-110 transition-all duration-300 mb-5'>
-                  <img
+                  <Image
                     src={post.imagePath}
                     alt={post.header}
                     className='w-full h-40 object-cover mb-4 rounded'
+                    width={500}
+                    height={500}
                   />
                   <h2 className='text-xl  md:text-lg font-semibold text-gray-800 mb-2'>
                     {post.header}
