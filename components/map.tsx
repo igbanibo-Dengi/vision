@@ -1,6 +1,6 @@
 "use client"
 import React, { useCallback, useState } from 'react';
-import { GoogleMap, useJsApiLoader, LatLngBounds, Marker, InfoWindow } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 
 const containerStyle: React.CSSProperties = {
   width: '100%',
