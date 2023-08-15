@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 const inter = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Wanda',
+  title: 'Pixel Host',
   description: 'Web Hosting solutions',
 }
 
