@@ -24,7 +24,7 @@ const HowItWorks = () => {
               Reliable Web Hosting
             </h1>
             <p className='text-gray-500'>
-              Ensure your website is always available and secure with our reliable web hosting services. We offer fast and efficient hosting solutions tailored to your unique needs. Whether you're a small business owner or a growing enterprise, our team is dedicated to providing the uptime and support you deserve.
+              Ensure your website is always available and secure with our reliable web hosting services. We offer fast and efficient hosting solutions tailored to your unique needs. Whether you&apos;re a small business owner or a growing enterprise, our team is dedicated to providing the uptime and support you deserve.
             </p>
             <div className='flex justify-center items-center md:block mt-10'>
               <Button size={'lg'}>Get in touch</Button>
@@ -64,7 +64,7 @@ const HowItWorks = () => {
               Scalable Hosting Solutions
             </h1>
             <p className='text-gray-500'>
-              As your online presence grows, so should your hosting capabilities. Our scalable hosting solutions allow you to expand your website's resources as your needs evolve. From shared hosting to dedicated servers, we offer a range of options to accommodate your growth. Stay focused on your business while we ensure your website can handle increased traffic and demand.
+              As your online presence grows, so should your hosting capabilities. Our scalable hosting solutions allow you to expand your website&apos;s resources as your needs evolve. From shared hosting to dedicated servers, we offer a range of options to accommodate your growth. Stay focused on your business while we ensure your website can handle increased traffic and demand.
             </p>
             <div className='flex justify-center items-center md:block mt-10'>
               <Button size={'lg'}>Get in touch</Button>

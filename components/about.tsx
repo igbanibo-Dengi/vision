@@ -6,7 +6,6 @@ import { Button } from './ui/button'
 import Funding from "../public/funding.svg"
 import Growth from "../public/growth.svg"
 import Rocket from "../public/rocket.svg"
-// import HeroImg from "../public/svg/hero-img.svg"
 
 
 
@@ -38,7 +37,7 @@ const About = () => {
       <article className='flex flex-col-reverse md:flex-row-reverse'>
         <div className='flex flex-col md:px-10 align-middle justify-center gap-3 basis-1/2'>
           <h1 className='text-xl sm:text-2xl md:text-3xl leading-snug font-bold'>
-            Early Growth & Funding
+            Early Growth and Funding
           </h1>
           <p className='text-gray-500 '>
             As the echoes of innovation reverberated, PixelHost experienced a meteoric rise. Its early growth was fueled by a fervent dedication to pushing the boundaries of design and development. The company's unwavering commitment attracted the attention of investors who recognized its potential to disrupt the industry. With strategic funding, PixelHost was poised to expand its horizons and embrace new opportunities.
@@ -58,7 +57,7 @@ const About = () => {
             To Infinity and Beyond!
           </h1>
           <p className='text-gray-500 '>
-            Emboldened by the success of its hosting endeavors, PixelHost set its sights on an ambitious future. Armed with a suite of cutting-edge hosting technologies, PixelHost embarked on a mission to empower businesses across the globe. The sky was not the limit – it was just the beginning. With a trajectory aimed at infinity and beyond, PixelHost envisions a world where seamless hosting experiences propel businesses to unprecedented heights, guided by the spirit of innovation that ignited its inception.
+            Emboldened by the success of its hosting endeavors, PixelHost set its sights on an ambitious future. Armed with a suite of cutting-edge hosting technologies, PixelHost embarked on a mission to empower businesses across the globe. The sky was not the limit, it was just the beginning. With a trajectory aimed at infinity and beyond, PixelHost envisions a world where seamless hosting experiences propel businesses to unprecedented heights, guided by the spirit of innovation that ignited its inception.
           </p>
         </div>
         <div className='basis-1/2 mt-8 md:mt-0 p-10'>
@@ -119,7 +118,7 @@ const About = () => {
                   Our Goal
                 </h1>
                 <p className='text-gray-500 px-6'>
-                  our goal is to be more than just a hosting provider – we strive to be your strategic partner in the digital realm. We are passionate about fostering innovation and growth for our clients. By consistently delivering high-performance hosting solutions, personalized support, and innovative features, we aim to empower businesses of all sizes to thrive in the ever-evolving online landscape. Your success is our success, and together, we're working towards a future where your online presence knows no bounds.
+                  our goal is to be more than just a hosting provider,  we strive to be your strategic partner in the digital realm. We are passionate about fostering innovation and growth for our clients. By consistently delivering high-performance hosting solutions, personalized support, and innovative features, we aim to empower businesses of all sizes to thrive in the ever-evolving online landscape. Your success is our success, and together, we&apos;re working towards a future where your online presence knows no bounds.
                 </p>
                 <div className='flex justify-center items-center md:block mt-10 md:px-6'>
                   <Button size={'lg'}>Get in touch</Button>

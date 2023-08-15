@@ -6,7 +6,7 @@ const DomainSearch = () => {
     <section className='max-w-[1200px] mx-auto flex flex-col lg:flex-row py-10 gap-5 lg:gap-0'>
       <div className='pl-10 lg:pr-10 w-full lg:w-[40%] pr-10 flex flex-col justify-center'>
         <h1 className='text-2xl font-extrabold'>Search Your Domain Name</h1>
-        <p className='text-gray-500'> It's time to redefine your web hosting experience.</p>
+        <p className='text-gray-500'> It&apos;s time to redefine your web hosting experience.</p>
       </div>
       <div className=' w-full mx-auto sm:w-[95%] md:w-[90%] lg:w-[60%]'>
         <div className='bg-primary flex flex-col mx-auto px-5 py-10 md:p-10 gap-4  rounded-tr-lg rounded-bl-lg rounded-[25px]'>

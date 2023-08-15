@@ -57,7 +57,7 @@ const Reviews = () => {
                 alt='user-image'
                 className='flex h-40 w-40 items-center justify-center rounded-full bg-muted'
               />
-              <p>Outstanding service and support! I couldn't be happier with the results.</p>
+              <p>Outstanding service and support! I couldn&apos;t be happier with the results.</p>
               <h3 className='text-xl font-bold text-black'>Emily Davis</h3>
               <p className='text-sm'>CEO, Tech Innovations</p>
             </div>

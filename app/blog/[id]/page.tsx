@@ -3,6 +3,7 @@ import dummyBlogData from "../../../components/Blog/BlogData"
 import { notFound } from "next/navigation";
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const getData = () => {
   const data = dummyBlogData.find((post) => post.id);
@@ -25,10 +26,12 @@ const page = () => {
         <h1 className="text-2xl md:text-4xl font-bold md:font-extrabold mb-6">{post.header}</h1>
 
         <div className='flex gap-5'>
-          <img
+          <Image
             src={post.imagePath}
             alt={post.header}
-            className="w-full h-60 md:h-96 object-cover rounded md:basis-3/4 mx-auto"
+            className="w-full h-60 md:h-96  rounded md:basis-3/4 mx-auto"
+            width={500}
+            height={500}
           />
           <article className='lg:flex flex-col gap-5 justify-center items-center hidden lg:basis-1/4 p-4 bg-neutral-200 rounded'>
             <h1 className='text-xl mb-2 font-bold'>Subscribe to Our Newsletter for Hosting Insights</h1>
