@@ -40,7 +40,7 @@ const Services = () => {
         <div className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
             <h2 className="text-xl font-extrabold mb-2">Enhanced Security</h2>
-            <p className="text-gray-500 group-hover:text-white">Your data's safety is our priority. Benefit from advanced security measures that safeguard your website and customer information from potential threats.</p>
+            <p className="text-gray-500 group-hover:text-white">Your data&apos;s safety is our priority. Benefit from advanced security measures that safeguard your website and customer information from potential threats.</p>
           </div>
           <div className="p-4 flex justify-center items-center ">
             <div className="p-4 rounded-full bg-primary text-white   group-hover:text-primary group-hover:bg-white transition-all duration-300">
