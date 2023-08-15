@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
       <motion.div
-        initial={{ x: 400 }}
+        initial={{ x: 400, opacity: 0 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}

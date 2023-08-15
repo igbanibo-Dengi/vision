@@ -6,17 +6,22 @@ import { Button } from './ui/button'
 import Funding from "../public/funding.svg"
 import Growth from "../public/growth.svg"
 import Rocket from "../public/rocket.svg"
+import { motion } from "framer-motion"
 
 
 
 const About = () => {
   return (
     <section className='container'>
-
-      <header className='mx-auto text-center pt-20'>
+      <motion.div
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+        className='mx-auto text-center pt-20'>
         <h1 className='text-4xl font-extrabold mb-10'>Our Story</h1>
         <hr className="border-t-3 border-gray-500" />
-      </header>
+      </motion.div>
       <article className='flex flex-col-reverse md:flex-row'>
         <div className='flex flex-col md:px-10 align-middle justify-center gap-3 basis-1/2'>
           <h1 className='text-xl sm:text-2xl md:text-3xl leading-snug font-bold'>
@@ -26,12 +31,17 @@ const About = () => {
             In the bustling year of 2007, PixelHost emerged as the brainchild of Alex Turner and Lily Chen. Fueled by a shared passion for design and development, they embarked on a journey to redefine the digital landscape. PixelHost&apos;s inception was marked by the establishment of a visionary blog and an online hub, serving as a platform for some of the industry&apos;s brightest minds to exchange ideas and insights.
           </p>
         </div>
-        <div className='basis-1/2 mt-8 md:mt-0 p-10'>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className='basis-1/2 mt-8 md:mt-0 p-10'>
           <Image
             src={Funding}
             alt='hero'
           />
-        </div>
+        </motion.div>
       </article>
 
       <article className='flex flex-col-reverse md:flex-row-reverse'>
@@ -43,12 +53,17 @@ const About = () => {
             As the echoes of innovation reverberated, PixelHost experienced a meteoric rise. Its early growth was fueled by a fervent dedication to pushing the boundaries of design and development. The company&apos;s unwavering commitment attracted the attention of investors who recognized its potential to disrupt the industry. With strategic funding, PixelHost was poised to expand its horizons and embrace new opportunities.
           </p>
         </div>
-        <div className='basis-1/2 mt-8 md:mt-0 p-10'>
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+          viewport={{ once: true }}
+          className='basis-1/2 mt-8 md:mt-0 p-10'>
           <Image
             src={Growth}
             alt='hero'
           />
-        </div>
+        </motion.div>
       </article>
 
       <article className='flex flex-col-reverse md:flex-row'>
@@ -60,22 +75,37 @@ const About = () => {
             Emboldened by the success of its hosting endeavors, PixelHost set its sights on an ambitious future. Armed with a suite of cutting-edge hosting technologies, PixelHost embarked on a mission to empower businesses across the globe. The sky was not the limit, it was just the beginning. With a trajectory aimed at infinity and beyond, PixelHost envisions a world where seamless hosting experiences propel businesses to unprecedented heights, guided by the spirit of innovation that ignited its inception.
           </p>
         </div>
-        <div className='basis-1/2 mt-8 md:mt-0 p-10'>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+          viewport={{ once: true }}
+          className='basis-1/2 mt-8 md:mt-0 p-10'>
           <Image
             src={Rocket}
             alt='hero'
           />
-        </div>
+        </motion.div>
       </article>
 
       <div className='flex flex-col md:flex-row'>
-        <div className=' mt-8 md:mt-0  mb-20'>
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+          viewport={{ once: true }}
+          className=' mt-8 md:mt-0  mb-20'>
           <Image
             src={GoalsImg}
             alt='hero'
           />
-        </div>
-        <div className='md:max-w-[50%] my-auto'>
+        </motion.div>
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className='md:max-w-[50%] my-auto'>
           <Tabs defaultValue="account" className="mb-6">
             <TabsList className='flex gap-0 sm:gap-5 md:gap-10 mb-10'>
               <TabsTrigger value="account">What we do</TabsTrigger>
@@ -129,7 +159,7 @@ const About = () => {
             </TabsContent>
           </Tabs>
 
-        </div>
+        </motion.div>
       </div>
     </section>
   )
