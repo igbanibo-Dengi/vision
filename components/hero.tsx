@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import HeroImg from "../public/svg/hero-img.svg"
 import { Button } from './ui/button'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -22,12 +23,17 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className='basis-1/2 md:mt-0 flex items-center'>
+      <motion.div
+        initial={{ x: 400 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+        className='basis-1/2 md:mt-0 flex items-center'>
         <Image
           src={HeroImg}
           alt='hero'
         />
-      </div>
+      </motion.div>
     </div>
   )
 }

@@ -10,6 +10,8 @@ import User5 from "../../public/reviewer-5.jpg"
 import User6 from "../../public/reviewer-6.jpg"
 import User7 from "../../public/reviewer-7.jpg"
 
+import { motion } from "framer-motion"
+
 
 import './style.css'
 
@@ -26,11 +28,24 @@ const Reviews = () => {
   return (
     <section className=' py-20'>
 
-      <div className='text-center'>
+      <motion.div
+
+        initial={{ y: 200, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+
+        className='text-center'>
         <h1 className='text-3xl sm:text-4xl font-extrabold'>Reviews</h1>
         <p className='text-gray-500'>Words from Our Delighted Clients</p>
-      </div>
-      <div className='mt-10'>
+      </motion.div>
+      <motion.div
+        initial={{ y: 200, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+
+        className='mt-10'>
         <Swiper
           modules={[EffectCoverflow, Pagination, Navigation]}
           effect={'coverflow'}
@@ -135,7 +150,7 @@ const Reviews = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-      </div>
+      </motion.div>
     </section >
   )
 }

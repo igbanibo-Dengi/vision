@@ -1,9 +1,18 @@
+'use client'
+
 import React from 'react'
 import { Button } from './ui/button'
+import { motion } from 'framer-motion'
 
 const DomainSearch = () => {
   return (
-    <section className='max-w-[1200px] mx-auto flex flex-col lg:flex-row py-10 gap-5 lg:gap-0'>
+    <motion.div
+      initial={{ y: 200, opacity: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ once: true }}
+
+      className='max-w-[1200px] mx-auto flex flex-col lg:flex-row py-10 gap-5 lg:gap-0'>
       <div className='pl-10 lg:pr-10 w-full lg:w-[40%] pr-10 flex flex-col justify-center'>
         <h1 className='text-2xl font-extrabold'>Search Your Domain Name</h1>
         <p className='text-gray-500'> It&apos;s time to redefine your web hosting experience.</p>
@@ -23,7 +32,7 @@ const DomainSearch = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.div>
   )
 }
 

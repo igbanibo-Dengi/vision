@@ -1,14 +1,25 @@
 import React from 'react'
 import { Button } from './ui/button'
+import { motion } from "framer-motion"
 
 const Pricing = () => {
   return (
     <section className=' container py-10'>
-      <div className='text-center mx-auto p mb-20'>
+      <motion.div
+        initial={{ y: 200, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+        className='text-center mx-auto p mb-20'>
         <h1 className='text-4xl font-extrabold'>Plans & Billing</h1>
         <p className='text-base font-bold pt-2 text-gray-500'>Mange your plan and billing details</p>
-      </div>
-      <div className='text-center grid sm:grid-cols-2 lg:grid-cols-4 gap-5'>
+      </motion.div>
+      <motion.div
+        initial={{ y: 200, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className='text-center grid sm:grid-cols-2 lg:grid-cols-4 gap-5'>
         <div className='bg-white flex flex-col hover:border-primary transition-all duration-300 items-center px-5 py-6 justify-between rounded shadow-lg border-2 border-gray-300'>
           <p className='text-xl font-bold'>Free Forever</p>
           <h1 className='text-3xl font-extrabold'><span className='text-sm'>$</span>0<span className='text-sm'>/mo</span></h1>
@@ -61,7 +72,7 @@ const Pricing = () => {
           </div>
           <Button>Choose Plan</Button>
         </div>
-      </div>
+      </motion.div>
 
 
     </section>
