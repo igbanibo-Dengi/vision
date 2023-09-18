@@ -18,7 +18,7 @@ const MainServices = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.2, delay: 0, ease: 'easeIn' }}
           viewport={{ once: true }}        >
           <h1 className='text-3xl sm:text-4xl font-extrabold'>Our Core Services</h1>
           <p className='text-gray-500 text-base'>Unlock a world of possibilities with our main service offerings. From lightning-fast web hosting and dynamic web design to robust e-commerce solutions, we&apos;ve got your digital needs covered. Explore our main services and take your online presence to new heights.</p>
@@ -28,7 +28,7 @@ const MainServices = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5, delay: 0, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -43,9 +43,14 @@ const MainServices = () => {
         </motion.div>
 
         <motion.div
+          // initial={{ y: 100, opacity: 0 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // transition={{ duration: 0.2, delay: 0, ease: 'easeIn' }}
+          // viewport={{ once: true }}
+
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5, delay: 0, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -61,7 +66,7 @@ const MainServices = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5, delay: 0, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -78,7 +83,7 @@ const MainServices = () => {
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5, delay: 0, ease: 'linear' }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">

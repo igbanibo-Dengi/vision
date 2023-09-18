@@ -12,17 +12,17 @@ const Services = () => {
       <motion.div
         initial={{ y: 200, opacity: 0 }}
         whileInView={{ opacity: 1, y: 0, }}
-        transition={{ duration: 0.2, delay: 0.4 }}
+        transition={{ duration: 0.4, delay: 0.7 }}
         viewport={{ once: true }}
         className="mt-20 flex flex-col gap-3 text-center mb-20">
         <h1 className="font-extrabold text-3xl md:text-4xl w-">Why Choose Us</h1>
         <p className="text-gray-500 text-sm max-w-[500px] mx-auto">we specialize in providing top-tier web hosting services that seamlessly blend speed, reliability, and unparalleled support.</p>
       </motion.div>
-      <div className="grid lg:grid-cols-2 gap-5 mt-10">
+      <div className="grid lg:grid-cols-2 gap-5 mt-36">
         <motion.div
           initial={{ y: 200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -39,7 +39,7 @@ const Services = () => {
         <motion.div
           initial={{ y: 200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -54,9 +54,9 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -71,9 +71,9 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -88,9 +88,9 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
@@ -105,9 +105,9 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          initial={{ y: 200, opacity: 0 }}
+          initial={{ y: 100, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 0, ease: 'linear' }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="group p-4 flex flex-col-reverse sm:flex-row rounded bg-white hover:bg-primary hover:text-white transition-all duration-300">
           <div className="p-5">
